@@ -1,0 +1,91 @@
+
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f4f4f4;
+    margin: 0;
+    padding: 20px;
+}
+
+.container {
+    max-width: 100%;
+    margin: auto;
+    background: burlywood;
+    padding: 20px;
+    border-radius: 45px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+h1 {
+    text-align: center;
+}
+
+#user-form {
+    margin-bottom: 20px;
+}
+
+input {
+    width: calc(45% - 22px);
+    padding: 10px;
+    margin: 10px 0;
+    margin-left: 35px;
+    text-align: center;
+    border-radius: 25px;
+}
+
+button {
+    padding: 10px;
+    background-color: #28a745;
+    color: white;
+    border: none; /* Убираем границу */
+    border-radius: 45px;
+    cursor: pointer;
+    display: block; /* Кнопка занимает всю ширину */
+    width: calc(25% - 22px); /* Полная ширина минус отступы */
+    margin: 10px auto; /* Центрируем кнопку */
+}
+
+
+button:hover {
+    background-color: #218838; /* Цвет кнопки при наведении */
+}
+
+/* Стили для таблицы */
+table {
+    width: 100%; /* Занимает всю ширину контейнера */
+    border-collapse: collapse; /* Убираем двойные границы */
+}
+
+th, td {
+    padding: 12px; /* Отступы внутри ячеек */
+    text-align: center; /* Выравнивание текста в ячейках по умолчанию */
+}
+
+th {
+    background-color: #0056b3; /* Темный синий цвет для заголовков таблицы */
+    color: white; /* Цвет текста заголовков */
+    text-align: center; /* Центрируем текст в заголовках */
+}
+
+tr:nth-child(even) {
+    background-color: #fff8e7; /* Светлый синий цвет для четных строк */
+}
+
+tr:hover {
+    background-color: #cce5ff; /* Более яркий синий цвет при наведении */
+}
+
+/* Стили для кнопок в таблице */
+td button {
+    margin-left: 5px; /* Отступ между кнопками в ячейках */
+    width: calc(100% - 22px);
+    background-color: #007bff; /* Основной синий цвет для кнопок */
+    color: white; /* Цвет текста кнопок */
+    border: none; /* Убираем границу кнопок */
+    border-radius: 5px; /* Скругление углов кнопок */
+    padding: 8px; /* Отступы внутри кнопок */
+}
+
+td button:hover {
+    background-color: #0056b3; /* Темный синий цвет при наведении на кнопку */
+}
+
